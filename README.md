@@ -13,6 +13,8 @@
 
 - [Prime Portal](https://portal.primeacademy.io/)
   - *Where you'll get and submit assignments throughout the entire program.*
+- [Code Archive](./resources/code_archive.md)
+  - All of the code we work through together in lectures and live-solves will be archived here. 🙂
 - [Tier 1: Instructional Content](http://tier1.primeacademy.io/)
   - *Where you'll find the recorded instructional content for all of Tier 1.*
 - [Tier 1: Welcome Site](https://launch.primeacademy.io/welcome-biscayne)
