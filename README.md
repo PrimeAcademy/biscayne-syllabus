@@ -2,7 +2,7 @@
 
 <img src="./resources/biscayne.webp" alt="Biscayne National Park" width="600px" />
 
-**IMPORTANT:** Always open to feedback. Always subject to change. Also, that 👆 is Biscayne National Park. Lovely, eh?
+**IMPORTANT:** Always open to feedback. Always subject to change.
 
 ## Guides
 
