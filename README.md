@@ -4,11 +4,6 @@
 
 **IMPORTANT:** Always open to feedback. Always subject to change.
 
-## Guides
-
-- [Tier 1](./resources/tier_one_guide.md)
-  - An overview and "how to" guide for getting the most out of your Tier 1 experience.
-
 ## Resources
 
 - [Prime Portal](https://portal.primeacademy.io/)
@@ -43,6 +38,8 @@
 
 ## Tier 1 Resources
 
+- [Tier 1: The Guide](./resources/tier_one_guide.md)
+  - An overview and "how to" guide for getting the most out of your Tier 1 experience.
 - [Tier 1: Instructional Content](http://tier1.primeacademy.io/)
   - *Where you'll find the recorded instructional content for all of Tier 1.*
 - [Tier 1: Welcome Site](https://launch.primeacademy.io/welcome-biscayne)
