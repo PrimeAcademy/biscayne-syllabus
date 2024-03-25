@@ -7,10 +7,11 @@
 ## Archive:
 
 <details>
-  <summary>Tier 1</summary>
+  <summary>Week 6: JS</summary>
 
-  ##### Monday - 02/19:
-  * [Some Code](https://github.com/matthew-black/matt_derps_with_rails)
-  * [Some Other Code](https://github.com/matthew-black/react-full-stack)
+  ##### Monday - 03/25:
+  * [Values and Expressions](https://github.com/PrimeAcademy/biscayne_values_and_expressions)
+  * [Writing Code to Solve a Problem](https://github.com/PrimeAcademy/biscayne_solving_a_problem)
+
 
 </details>
