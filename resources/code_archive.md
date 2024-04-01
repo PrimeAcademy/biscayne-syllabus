@@ -29,3 +29,13 @@
   * [Making a To-Do List App](https://github.com/PrimeAcademy/biscayne_our_first_web_app) 📚
 
 </details>
+
+<details>
+  <summary>Week 7: Node | Express | HTTP Request/Response Cycle</summary>
+
+  ##### Monday - 04/01:
+  * [Weekend Salary Calculator Solve](https://github.com/PrimeAcademy/biscayne_weekend_salary_calculator_live_solve)
+  * [Weekend Salary Calculator Solve + Currency Formatting](https://github.com/PrimeAcademy/biscayne_salary_calculator_w_number_formatting)
+  * [Event -> State -> Render](https://github.com/PrimeAcademy/biscayne_event_state_render)
+
+</details>
