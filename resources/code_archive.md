@@ -40,5 +40,6 @@
 
   ##### Tuesday - 04/02:
   * [Fungus Fighter Partial Solve](https://github.com/PrimeAcademy/biscayne_fungus_fighter_partially_solved)
+  * [Hello Node](https://github.com/PrimeAcademy/biscayne_hello_node)
 
 </details>
