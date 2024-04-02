@@ -38,4 +38,7 @@
   * [Weekend Salary Calculator Solve + Currency Formatting](https://github.com/PrimeAcademy/biscayne_salary_calculator_w_number_formatting)
   * [Event -> State -> Render](https://github.com/PrimeAcademy/biscayne_event_state_render)
 
+  ##### Tuesday - 04/02:
+  * [Fungus Fighter Partial Solve](https://github.com/PrimeAcademy/biscayne_fungus_fighter_partially_solved)
+
 </details>
