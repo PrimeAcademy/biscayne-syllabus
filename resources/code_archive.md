@@ -42,5 +42,6 @@
   * [Fungus Fighter Partial Solve](https://github.com/PrimeAcademy/biscayne_fungus_fighter_partially_solved)
   * [Hello Node](https://github.com/PrimeAcademy/biscayne_hello_node)
   * [Big Money Modules Solution](https://github.com/PrimeAcademy/biscayne_big_money_modules)
+  * [Our First Server](https://github.com/PrimeAcademy/biscayne_our_first_server)
 
 </details>
