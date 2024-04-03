@@ -44,4 +44,8 @@
   * [Big Money Modules Solution](https://github.com/PrimeAcademy/biscayne_big_money_modules)
   * [Our First Server](https://github.com/PrimeAcademy/biscayne_our_first_server)
 
+  ##### Wednesday - 04/03:
+  * [Client/Server with GET Route](https://github.com/PrimeAcademy/biscayne_server_with_GET)
+  * [Client/Server with GET and POST Routes](https://github.com/PrimeAcademy/biscayne_server_with_GET_and_POST)
+
 </details>
