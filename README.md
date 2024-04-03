@@ -10,6 +10,7 @@
   - *Where you'll get and submit assignments throughout the entire program.*
 - [Code Archive](./resources/code_archive.md)
   - All of the code we work through together in lectures and live-solves will be archived here. 🙂
+- [Code of Conduct](https://launch.primeacademy.io/hubfs/Documents/Prime%20Digital%20Academy%20Code%20of%20Conduct.pdf)
 - [How to Prime](./resources/how_to_prime.md)
 
 
