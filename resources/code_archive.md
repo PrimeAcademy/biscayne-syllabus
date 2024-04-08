@@ -48,4 +48,7 @@
   * [Client/Server with GET Route](https://github.com/PrimeAcademy/biscayne_server_with_GET)
   * [Client/Server with GET and POST Routes](https://github.com/PrimeAcademy/biscayne_server_with_GET_and_POST)
 
+  ##### Friday - 04/05:
+  * [GET/POST Review and Diagramming](https://github.com/PrimeAcademy/biscayne_get_post_review)
+
 </details>
