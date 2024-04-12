@@ -30,6 +30,7 @@
 
 </details>
 
+
 <details>
   <summary>Week 7: Node | Express | HTTP Request/Response Cycle</summary>
 
@@ -50,5 +51,26 @@
 
   ##### Friday - 04/05:
   * [GET/POST Review and Diagramming](https://github.com/PrimeAcademy/biscayne_get_post_review)
+
+</details>
+
+
+<details>
+  <summary>Week 7: Node | Express | HTTP Request/Response Cycle</summary>
+
+  ##### Monday - 04/08:
+  * [Server-Side Calculator Solve](https://github.com/PrimeAcademy/biscayne_server_calculator_solve)
+  * [Express Router Files](https://github.com/PrimeAcademy/biscayne_express_router_files)
+
+  ##### Tuesday - 04/09:
+  * [SQL Intro](https://github.com/PrimeAcademy/biscayne_sql_intro) 📚
+  * [Full-Stack GET](https://github.com/PrimeAcademy/biscayne_pg_intro)
+
+  ##### Wednesday - 04/10:
+  * [Full-Stack GET/POST](https://github.com/PrimeAcademy/biscayne_pg_GET_POST) 🎨
+  * [Full-Stack GET/POST/DELETE](https://github.com/PrimeAcademy/biscayne_GET_POST_DELETE)
+
+  ##### Thursday 04/11:
+  * [Full-Stack GET/POST/DELETE/PUT](https://github.com/PrimeAcademy/biscayne_pg_put)
 
 </details>
