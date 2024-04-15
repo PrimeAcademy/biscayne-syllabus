@@ -14,6 +14,7 @@
 - [Code of Conduct](https://launch.primeacademy.io/hubfs/Documents/Prime%20Digital%20Academy%20Code%20of%20Conduct.pdf)
 - [How to Prime](./resources/how_to_prime.md)
 - [Weekend Challenge Guide](./resources/weekend_challenge_guide.md)
+- [Vanilla JS CRUD Starter](./resources/CRUD_cardio.md)
 
 
 ## Instruction Staff
