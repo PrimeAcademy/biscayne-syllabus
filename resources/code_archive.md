@@ -56,7 +56,7 @@
 
 
 <details>
-  <summary>Week 7: Node | Express | HTTP Request/Response Cycle</summary>
+  <summary>Week 8: SQL and Full-Stack CRUD</summary>
 
   ##### Monday - 04/08:
   * [Server-Side Calculator Solve](https://github.com/PrimeAcademy/biscayne_server_calculator_solve)
