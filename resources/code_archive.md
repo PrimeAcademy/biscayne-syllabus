@@ -74,3 +74,50 @@
   * [Full-Stack GET/POST/DELETE/PUT](https://github.com/PrimeAcademy/biscayne_pg_put)
 
 </details>
+
+<details>
+  <summary>Week 10: React</summary>
+
+  ##### Monday - 04/22:
+  * [Hello React](https://github.com/matthew-black/biscayne_hello_react) 📚🎨
+  * [React State](https://github.com/PrimeAcademy/biscayne_react_state)
+  * [Clicker Component](https://github.com/PrimeAcademy/biscayne_clicker_component)
+
+
+  ##### Tuesday - 04/23:
+  * [React Inputs](https://github.com/PrimeAcademy/biscayne-react-inputs) 📚
+  * [Track Runner Solution](https://github.com/PrimeAcademy/biscayne_track_runner_solve)
+  * [Full-Stack React: GET](https://github.com/PrimeAcademy/biscayne_full_stack_react)
+  * [Full-Stack React: GET and POST](https://github.com/PrimeAcademy/biscayne_full_stack_react_get_and_post)
+
+  ##### Wednesday - 04/24:
+  * [Famous People Solution](https://github.com/PrimeAcademy/biscayne_famous_people)
+  * [Modular Full-Stack React](https://github.com/PrimeAcademy/biscayne_modular_full_stack_react)
+  
+  ##### Thursday - 04/25:
+  * [Pull Request Review](https://github.com/PrimeAcademy/biscayne-pr-review)
+
+
+  ##### Friday - 04/26:
+  * [React Conditional Rendering](https://github.com/PrimeAcademy/biscayne_react_conditional_redering)
+
+</details>
+
+<details>
+  <summary>Week 11: Redux</summary>
+
+  ##### Monday - 04/29:
+  * [React App/List/Item Pattern Review](https://github.com/matthew-black/app_list_item_pattern) 📚🎨
+  * [React Router](https://github.com/PrimeAcademy/biscayne_react_router)
+
+
+  ##### Tuesday - 04/30:
+  * [Redux Intro](https://github.com/PrimeAcademy/biscayne_redux_intro) 📚
+  * [Redux Airport Solution](https://github.com/PrimeAcademy/biscayne_redux_airport)
+
+  ##### Wednesday - 05/01:
+  * [Redux Pitchers Partial Solution](https://github.com/PrimeAcademy/biscayne_redux_pitchers_partial_solve)
+  * [Full-Stack Redux](https://github.com/PrimeAcademy/biscayne_full_stack_redux) 📚🎨
+  * [Redux Shopping Cart Solution](https://github.com/PrimeAcademy/biscayne_redux_shopping_cart)
+
+</details>
