@@ -15,6 +15,7 @@
 - [How to Prime](./resources/how_to_prime.md)
 - [Weekend Challenge Guide](./resources/weekend_challenge_guide.md)
 - [Vanilla JS CRUD Starter](./resources/CRUD_cardio.md)
+- [Heroku Hosting](./resources/heroku.md)
 
 
 ## Instruction Staff
