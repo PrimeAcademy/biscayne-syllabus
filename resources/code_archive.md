@@ -103,6 +103,7 @@
 
 </details>
 
+
 <details>
   <summary>Week 11: Redux</summary>
 
@@ -119,5 +120,192 @@
   * [Redux Pitchers Partial Solution](https://github.com/PrimeAcademy/biscayne_redux_pitchers_partial_solve)
   * [Full-Stack Redux](https://github.com/PrimeAcademy/biscayne_full_stack_redux) 📚🎨
   * [Redux Shopping Cart Solution](https://github.com/PrimeAcademy/biscayne_redux_shopping_cart)
+
+</details>
+
+
+<details>
+  <summary>Week 12: SQL JOINs | SQL Aggregate Functions | Redux-Saga</summary>
+
+  ##### Monday - 05/06:
+  * [Straightforward Redux Feedback Loop Solution](https://github.com/PrimeAcademy/biscayne_redux_feedback_loop)
+  * [Abstract Redux Feedback Loop Solution](https://github.com/PrimeAcademy/biscayne_redux_feedback_loop/tree/abstract-feedback-steps)
+  
+  * <details>
+      <summary>One-to-Many Joins</summary>
+      
+      ```sql
+      DROP TABLE IF EXISTS "things";
+      DROP TABLE IF EXISTS "people";
+
+
+      CREATE TABLE "people" (
+        "id" SERIAL PRIMARY KEY,
+        "name" VARCHAR(500)
+      );
+
+      INSERT INTO "people"
+        ("name")
+        VALUES
+        ('Matt'),
+        ('Alf'),
+        ('Miss Piggy');
+
+      CREATE TABLE "things" (
+        "id" SERIAL PRIMARY KEY,
+        "thing" VARCHAR(500) NOT NULL,
+        "person_id" INT REFERENCES "people"
+      );
+
+      INSERT INTO "things"
+        ("thing", "person_id")
+        VALUES
+        ('Violin', 2),
+        ('Ball', NULL),
+        ('Sock', 2),
+        ('Rock', 1),
+        ('Frog', 2);
+        
+        
+      -- Query that joings the people and things tables
+      -- together:
+      -- Select everything from the people table,
+      -- then join the things table into that dataset
+      -- by matching rows from each table ON the
+      -- people.id and things.person_id values:
+      SELECT * FROM "people"
+        INNER JOIN "things" -- INNER: Where things match.
+          ON "people"."id" = "things"."person_id";
+        
+      -- Query that selects all of Alf's things:
+      SELECT * FROM "people"
+        INNER JOIN "things" -- INNER: Where things match.
+          ON "people"."id" = "things"."person_id"
+        WHERE "person_id" = 2;
+
+      -- If we need both id column's values in JS-land, we'll
+      -- need to alias them so they don't overlap each other:
+      SELECT
+        "people"."id" AS "person_id", -- ALIASING!
+        "people"."name" AS "person_name",
+        "things"."id" AS "thing_id",
+        "things"."thing"	
+      FROM "people"
+        INNER JOIN "things"
+          ON "people"."id" = "things"."person_id";
+        
+      -- SELECT all the people, do not discard any people! Show
+      -- us what things they have:
+      SELECT * FROM "people"
+        LEFT JOIN "things"
+          ON "people"."id" = "things"."person_id";
+          
+      -- If we don't care about the data, we just want to know
+      -- how many rows our query selects:
+      -- "How many things does Alf have?"
+      SELECT COUNT(*) FROM "people"
+        INNER JOIN "things"
+          ON "people"."id" = "things"."person_id"
+          WHERE "people"."id" = 2;
+
+      ```
+
+    </details>
+
+  * <details>
+      <summary>Many-to-Many JOINs</summary>
+
+      ```sql
+      DROP TABLE IF EXISTS "users_hobbies";
+      DROP TABLE IF EXISTS "users";
+      DROP TABLE IF EXISTS "hobbies";
+
+
+      CREATE TABLE "users" (
+        "id" SERIAL PRIMARY KEY,
+        "username" VARCHAR(500)
+      );
+
+      CREATE TABLE "hobbies" (
+        "id" SERIAL PRIMARY KEY,
+        "name" VARCHAR(500)
+      );
+
+      CREATE TABLE "users_hobbies" (
+        "id" SERIAL PRIMARY KEY,
+        "user_id" INT REFERENCES "users",
+        "hobby_id" INT REFERENCES "hobbies",
+        "skill_level" INT
+      );
+
+      INSERT INTO "users"
+        ("username")
+        VALUES
+        ('matt'),
+        ('alf_88'),
+        ('miss_PIGGY');
+
+      INSERT INTO "hobbies"
+        ("name")
+        VALUES
+        ('Climbing'),
+        ('JavaScripting'),
+        ('Baking'),
+        ('Knitting'),
+        ('Napping');
+        
+      INSERT INTO "users_hobbies"
+        ("user_id", "hobby_id", "skill_level")
+        VALUES
+        (1, 3, 5), -- 'matt' >--< 'Baking'
+        (2, 3, 8), -- 'alf_88' >--< 'Baking'
+        (1, 1, 3), -- 'matt' >--< 'Climbing'
+        (3, 5, 8), -- 'miss_PIGGY' >--< 'Napping'
+        (2, 2, 10); -- 'alf_88' >--< 'JavaScripting'
+        
+      SELECT * FROM "users"
+        JOIN "users_hobbies"
+          ON "users"."id" = "users_hobbies"."user_id"
+        JOIN "hobbies"
+          ON "users_hobbies"."hobby_id" = "hobbies"."id";
+          
+      -- What hobby is 'matt' best at? We only care about:
+      -- user's id, user's name, hobby's id, hobby's name, and skill_level
+      SELECT
+        "users"."id" AS "user_id",
+        "users"."username",
+        "hobbies"."id" AS "hobby_id",
+        "hobbies"."name",
+        "users_hobbies"."skill_level"
+      FROM "users"
+        JOIN "users_hobbies"
+          ON "users"."id" = "users_hobbies"."user_id"
+        JOIN "hobbies"
+          ON "users_hobbies"."hobby_id" = "hobbies"."id"
+        WHERE "users"."id" = 1
+        ORDER BY "users_hobbies"."skill_level" DESC
+        LIMIT 1;
+
+      -- dbRes.rows would be:
+      -- [
+      --   {
+      --     user_id: 1,
+      --     username: 'matt',
+      --     hobby_id: 3,
+      --     name: 'Baking',
+      --     skill_level: 5
+      --   }
+      -- ]
+      ```
+
+    </details>
+
+  * [SQL Relationships Diagram](https://excalidraw.com/#json=_9cyqGGjQgETTCQZGPhpB,Fo1C6gw9mggjC0BsoUdcEA)
+
+  ##### Tuesday - 05/07:
+  * [Giphy API Example](https://github.com/PrimeAcademy/biscayne_giphy_api)
+
+  ##### Wednesday - 05/08:
+  * [Redux-Saga](https://github.com/PrimeAcademy/biscayne-redux-saga)
 
 </details>
