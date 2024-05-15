@@ -309,3 +309,14 @@
   * [Redux-Saga](https://github.com/PrimeAcademy/biscayne-redux-saga)
 
 </details>
+
+<details>
+  <summary>Week 13: Auth and Solo Project Scoping</summary>
+
+  ##### Monday - 05/13:
+  * [Movie Sagas Minimal Solution](https://github.com/PrimeAcademy/biscayne_movie_sagas)
+
+  ##### Tuesday - 05/14:
+  * [Auth](https://github.com/PrimeAcademy/biscayne_auth_starter)
+
+</detaills>
