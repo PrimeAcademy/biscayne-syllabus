@@ -319,4 +319,13 @@
   ##### Tuesday - 05/14:
   * [Auth](https://github.com/PrimeAcademy/biscayne_auth_starter)
 
-</detaills>
+</details>
+
+
+<details>
+  <summary>Week 14 & 15: Solo Projects</summary>
+
+  ##### Friday - 05/24:
+  * [Redux Edit Form Happy Path](https://github.com/PrimeAcademy/biscayne_edit_form_happy_path)
+  
+</details>
