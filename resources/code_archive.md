@@ -327,5 +327,9 @@
 
   ##### Friday - 05/24:
   * [Redux Edit Form Happy Path](https://github.com/PrimeAcademy/biscayne_edit_form_happy_path)
+
+  ##### Wednesday - 05/29:
+  * [Async/Await](https://github.com/PrimeAcademy/biscayne_async_await)
+  * [SQL Transactions](https://github.com/PrimeAcademy/biscayne_sql_transactions)
   
 </details>
