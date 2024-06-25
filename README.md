@@ -17,6 +17,7 @@
 - [Vanilla JS CRUD Starter](./resources/CRUD_cardio.md)
 - [Heroku Hosting](./resources/heroku.md)
 - [Solo Project Presentations](./resources/solo_presentations.md)
+- [Client Project Presentations](./resources/client_presentations.md)
 
 
 ## Instruction Staff
