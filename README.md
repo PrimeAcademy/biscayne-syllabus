@@ -18,6 +18,9 @@
 - [Heroku Hosting](./resources/heroku.md)
 - [Solo Project Presentations](./resources/solo_presentations.md)
 - [Client Project Presentations](./resources/client_presentations.md)
+- [Heroku App+DB Hosting: Personal Projects](./resources/heroku_sql_for_personal_projects.md)
+- [Heroku App+DB Hosting: Client Projects](./resources/heroku_sql_for_client_project.md)
+
 
 
 ## Instruction Staff
