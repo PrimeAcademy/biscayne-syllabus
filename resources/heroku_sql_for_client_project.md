@@ -54,9 +54,9 @@ if (process.env.DATABASE_URL) {
 
 Run the following **terminal** commands from **within your project folder's root directory**.
 
-1. `git remote add heroku git@heroku.com:project-name.git`
+1. `heroku git:remote -a project-name`
     * Replace `project-name` with the name of the Heroku app that the client created.
-    * Log in in if prompted.
+    * Log in if prompted.
 2. `git remote -v` to ensure it added successfully
     * You should see output like this. (AKA: This repo has a home on GitHub named `origin` and a home on Heroku named `heroku`.)
     * ![screenshot of git remotes](./heroku_remote.png)
